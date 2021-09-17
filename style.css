@@ -1,4 +1,51 @@
+body{
+    font-size: 50px;
+}
 .hide{
     display: none;
 }
 
+input[type='button'], button {
+	width: 100px;
+	height: 100px;
+	margin: 20px 0;
+    font-size: 30px;
+}
+
+#inputwindow,#second_name,#first_name{
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+}
+
+#page4,#page5,#inputwindow{
+
+
+	margin: 10px;
+}
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+header{
+    font-size: 20px;
+    height: 200px; 
+    background-color: lightblue;
+    margin-bottom: 50px;
+
+}
+img{
+    max-width: 20%;
+}
+
+.cellContainer{
+    margin-right: 200px;
+    float: right;
+    
+}
+
+.center{
+    align-content: center;
+}
