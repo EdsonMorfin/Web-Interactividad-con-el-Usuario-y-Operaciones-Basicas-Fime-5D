@@ -14,12 +14,12 @@
 <body>
     <header>
         <h1>Bienvenido</h1>
-        <h2 id="name">Iniciar sesion:</h2>
+        <h2 id="login_name">Iniciar sesion:</h2>
     </header>
     <section id="page1" class="view" >
-        Nombre:<input id="nameTest" name="name" placeholder="John" type="text"/>
+        Nombre:<input id="first_name" name="name" placeholder="John" type="text"/>
         Apellido:<input id="second_name" placeholder="Smith" type="text"/>
-        <input id="button1" type="button" value="Enviar" onclick="SaveName(); ChangeView(this.id)"  />
+        <input id="button1" type="button" value="Enviar" onclick=" SaveName(); ChangeView(this.id); PrintName();"  />
         
     </section>  
 
@@ -28,8 +28,8 @@
         <input id="button2" type="button" value="Si" onclick="ChangeView(this.id)" />
         <input id="thanks_button" type="button" value="No" onclick="ChangeView(this.id)" />
     </section>
-    <section class="view hide" id="page3">
-        Buenas "hora" <p id="test2"> </p> gracias por tu visita
+    <section class="view hide" id="page3" >
+        <h2>Buenas</h2> <h2 id="day_time">noches</h2> <h2 id="goodbye_name"> </h2> <h2> gracias por tu visita</h2>
     </section>
 
     <section class="view hide" id="page4">

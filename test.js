@@ -6,10 +6,6 @@ function save(){
     alert(document.getElementById("myInput").value);
 }
 
-var test=document.getElementById("test123");
-test.onClick = function(){
-    alert("button pressed!");
-}
 
 
 function ChangeView(clicked_id){
@@ -31,6 +27,16 @@ function ChangeView(clicked_id){
     }
 }
 
+function SaveName(){
+    window.first_name = document.getElementById("first_name").value;
+    window.second_name = document.getElementById("second_name").value;
+}
+
+function PrintName(){
+    var name = window.first_name+" "+window.second_name;
+    document.getElementById("login_name").innerHTML= name;
+    document.getElementById("goodbye_name").innerHTML= name;
+}
 
 
 
